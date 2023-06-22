@@ -1,0 +1,33 @@
+server:
+  port: 9090
+
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+  datasource:
+    url: jdbc:mariadb://localhost:3306/challengeDB?createDatabaseIfNotExist=true
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: rootroot
+    hikari:
+      poolName: Hikari
+      connection-timeout: 30000
+      minimum-idle: 10
+      maximum-pool-size: 10
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      auto-commit: true
+      data-source-properties:
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true
+
+    jpa:
+      hibernate:
+        ddl-auto: none
+        generate-ddl: true
+  sql:
+    init:
+      mode: never
