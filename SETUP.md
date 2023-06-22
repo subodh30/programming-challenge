@@ -6,7 +6,7 @@ This guide provides instructions on how to set up the project.
 
 Before proceeding with the setup, ensure that you have the following prerequisites installed on your system:
 
-- Java Development Kit (JDK) 17 or higher
+- Java Development Kit (JDK) 1.8
 - Maven 3.8.4 or higher
 - Node.js (v16.17.0 or higher)
 - npm (v8.19.2 or higher)
