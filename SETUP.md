@@ -41,7 +41,7 @@ This will start the application and make it accessible at `http://localhost:9090
 ## Backend Configuration
 
 1.  You can modify the project configuration by editing the `application.yml` file located in the `src/main/resources` directory. To change the database connection settings like username and password, edit the `spring.datasource` properties in the `application.yml` file.
-2. For running first time, please set `spring.jpa.hibernate.ddl-auto` to `create` in `application.yml` file. This will create the database schema, required tables and populate it with initial data.
+2. For running first time, please set `spring.jpa.hibernate.ddl-auto` to `create` in `application.yml` file. This will create the database schema, required tables and populate it with initial data from `src/main/resources/schema.sql` and `src/main/resources/data.sql`.
 3. After running the project first time, please set `spring.jpa.hibernate.ddl-auto` to `none` in `application.yml` file. This will prevent the database schema and tables from being dropped and recreated every time the application is started.
 4. To change the server port number, edit the `server.port` property in the `application.yml` file. Make sure you change port in React port also in `src/services/HttpService.tsx` file.
 
