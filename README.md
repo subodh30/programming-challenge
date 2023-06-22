@@ -41,3 +41,23 @@ requirements, such as:
 - Using docker
 - Having a script to run all components
 - Importing the supplied data into a well normalized schema
+
+## Submission
+
+### Documentation
+[Java Documentation](https://subodh30.github.io/programming-challenge/) <br>
+[Folder Location](/docs)
+
+### Instructions to run the project
+Please follow steps given in  [SETUP.md](/SETUP.md) file to run the project
+
+### Screenshots of Website
+
+#### Dashboard
+![Dashboard](/output/dashboard.png)
+
+#### Movement Data
+![Movement Data](/output/movement.png)
+
+#### Population Data
+![Population Data](/output/population.png)
