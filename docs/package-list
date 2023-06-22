@@ -1,0 +1,4 @@
+com.machado_lab.application_layer.controllers
+com.machado_lab.application_layer.database
+com.machado_lab.application_layer.models
+com.machado_lab.application_layer.services
