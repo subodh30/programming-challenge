@@ -19,22 +19,22 @@ Follow the steps below to install and set up the application_layer project:
 
 1. Clone the project repository to your local machine:
 ```console
-~$ git clone https://github.com/subodh30/programming-challenge.git
+git clone https://github.com/subodh30/programming-challenge.git
 ```
 2. Navigate to the project directory:
 ```console
-~$ cd ./Backend/application_layer
+cd ./Backend/application_layer
 ```
 2. Build the project using Maven. Run the following command in the application_layer directory:
 ```console
-~$ mvn clean install
+mvn clean install
 ```
 This command will download the project dependencies, compile the source code, run tests, and create the necessary build artifacts.
 
 3. Configure backend database connection settings as given in the next section.
 4. Run the project using the following command:
 ```console
-~$ mvn spring-boot:run
+mvn spring-boot:run
 ```
 This will start the application and make it accessible at `http://localhost:9090`.
 
@@ -50,16 +50,16 @@ This will start the application and make it accessible at `http://localhost:9090
 
 1. Navigate to the project directory:
 ```console
-~$ cd ./Frontend/presentation_layer
+cd ./Frontend/presentation_layer
 ```
 
 2. Install the project dependencies in presentation_layer using npm
 ```console
-~$ npm install
+npm install
 ```
 3. Run the project using the following command:
 ```console
-~$ npm run dev
+npm run dev
 ```
 This will start the application and make it accessible at `http://localhost:8080`.
 
