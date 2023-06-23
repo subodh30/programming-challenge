@@ -1,4 +1,4 @@
-# Programming Challenge - Setup Guide
+# Setup Guide
 
 This guide provides instructions on how to set up the project.
 

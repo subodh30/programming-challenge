@@ -54,6 +54,10 @@ Please follow steps given in  [SETUP.md](/SETUP.md) file to run the project
 ### Instructions to deploy applications in Docker
 Please follow steps given in  [DEPLOYMENT.md](/DEPLOYMENT.md) file to deploy the project
 
+### Database Schema
+Please read [DATABASE.md](/DATABASE.md) file for database schema details. <br>
+Please refer [schema.sql](/Backend/application_layer/src/main/resources/schema.sql) file for database schema and [data.sql](/Backend/application_layer/src/main/resources/data.sql) file for initial data.
+
 ### Screenshots of Website
 
 #### Dashboard
