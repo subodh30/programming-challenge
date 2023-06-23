@@ -27,6 +27,10 @@ public class MovementRepository extends GenericDAO implements IMovementRepo {
      */
     @Override
     public List<Movement> getAllMovements() {
-        return getAll("SELECT * FROM movement", Movement.class);
+        return getAll("SELECT m.*, o.name AS new_originname, o.address AS new_originaddress, o.city AS new_origincity, o.state AS new_originstate, o.postcode AS new_originpostalcode, o.latitude AS origin_lat, o.longitude AS origin_lon," +
+                "       d.name AS new_destinationname, d.address AS new_destinationaddress, d.city AS new_destinationcity,  d.state AS new_destinationstate, d.postcode AS new_destinationpostalcode, d.latitude AS destination_lat, d.longitude AS destination_lon " +
+                "FROM Movement m " +
+                "JOIN Location o ON m.origin_premId = o.premId " +
+                "JOIN Location d ON m.destination_premId = d.premId ", Movement.class);
     }
 }

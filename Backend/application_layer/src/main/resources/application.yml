@@ -28,6 +28,7 @@ spring:
       hibernate:
         ddl-auto: none
         generate-ddl: true
+        show-sql: true
   sql:
     init:
       mode: never

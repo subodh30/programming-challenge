@@ -28,6 +28,6 @@ public class PopulationRepository extends GenericDAO implements IPopulationRepo 
      */
     @Override
     public List<Population> getAllPopulations() {
-        return getAll("SELECT * FROM population", Population.class);
+        return getAll("SELECT * FROM Population", Population.class);
     }
 }
