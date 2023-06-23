@@ -48,8 +48,11 @@ requirements, such as:
 [Java Documentation](https://subodh30.github.io/programming-challenge/) <br>
 [Folder Location](/docs)
 
-### Instructions to run the project
+### Instructions to run the project locally
 Please follow steps given in  [SETUP.md](/SETUP.md) file to run the project
+
+### Instructions to deploy applications in Docker
+Please follow steps given in  [DEPLOYMENT.md](/DEPLOYMENT.md) file to deploy the project
 
 ### Screenshots of Website
 
